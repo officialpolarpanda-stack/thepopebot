@@ -3,7 +3,7 @@ name: PopeBot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   run-agent:
